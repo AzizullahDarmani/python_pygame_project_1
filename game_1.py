@@ -145,40 +145,7 @@ while True:
     pygame.display.update()
 
 
-# while True:
-#     clock.tick(speed)
 
-#     pressed_key = pygame.key.get_pressed()
-#     if pressed_key[pygame.K_DOWN] or pressed_key[pygame.K_s]:
-#         if paddle_y + paddle_height + 10 <= display_height:
-#             paddle_y += 10
-#         if pressed_key[pygame.K_UP] or pressed_key[pygame.K_w]:
-#             if paddle_y >= 0:
-#                 paddle_y -= 10
-
-
-
-
-#     for event in pygame.event.get():
-#         if event.type == pygame.QUIT:
-#             pygame.quit() 
-#     screen.fill((0,0,0))
-#     x+= x_1
-#     y+= y_1
-
-#     pygame.draw.rect(screen, (255,255,255), (paddle_x, paddle_y, paddle_width,paddle_height))
-#     pygame.draw.circle(screen, (255,255,255), (x,y), radius )
-#     if x < radius:
-#         game_over()
-#         randomize_start()
-#         x_1 = abs(x_1)
-#         play_score = 0
-
-#     if hit_back() or hit_paddle():
-#         x_1 *= -1
-#     if hit_sides():
-#         y_1 *= -1 
-#     pygame.display.update() 
 
 
 
